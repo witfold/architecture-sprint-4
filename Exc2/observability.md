@@ -39,3 +39,42 @@
 ## Работа по настройке мониторинга
 - т.к. в команде есть девос инженер, он на себя берет настройку и подключение сервисов к prometheus/grafana
 - тимлид команды создает необходимые задачи для подключения actuators в API сервисы
+
+
+# Работа над ошибками
+
+## PostgreSQL
+- Current fetch data
+- Current insert data
+- Current update data
+- Active sessions
+- Transactions
+- Deadlocks
+- CPU
+- Memory Usage
+
+## Kafka
+- CPU - да, необходимо также мониторить, в `Base metrics` - подразумевал, что нужно их отслеживать для всех, как основа
+
+### Api services:
+- Latency
+- Traffic
+- Errors
+- Saturation
+- Request Rate
+- Error rate
+- Duration
+- Slowest Http methods
+
+
+### Public API services:
+- Kb provided
+- Kb transferred (received)
+- Latency
+- Traffic
+- Errors
+- Saturation
+- Request Rate
+- Error rate
+- Duration
+- Slowest Http methods
